@@ -1,0 +1,12 @@
+docker 中安装的mysql 版本5.6
+参考：https://www.cnblogs.com/jimmyshan-study/p/11186610.html
+输入的命令 docker run --name dev01 -e MY_SQL_ROOT_PASSWORD=123456 -d -p 3307:3306 mysql:5.6
+查看docker 的container
+docker ps -a
+
+查看镜像 命令：
+docker images
+mysql的容器ID  c1844ebaf6ba
+mysql IMAGIN id    732765f8c7d2
+docker start c1844ebaf6ba
+docker stop c1844ebaf6ba
