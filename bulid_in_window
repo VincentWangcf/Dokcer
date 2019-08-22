@@ -3,6 +3,7 @@ docker 中安装的mysql 版本5.6
 输入的命令 docker run --name dev01 -e MY_SQL_ROOT_PASSWORD=123456 -d -p 3307:3306 mysql:5.6
 
 --name 后面的dev01 名字可以自己定义和命名
+3307 是映射的端口号
 
 查看docker 的container
 docker ps -a
